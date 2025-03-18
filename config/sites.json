@@ -1,0 +1,22 @@
+{
+    "cnn": {
+        "url": {
+            "0": {
+                "link": "https://cnn.com/us",
+                "start_year": 2020,
+                "end_year": 2023
+            }
+        },
+        "base_url": "cnn.com/"
+    },
+    "foxnews": {
+        "url": {
+            "0": {
+                "link": "http://www.foxnews.com/us/",
+                "start_year": 2015,
+                "end_year": 2018
+            }
+        },
+        "base_url": "foxnews.com/"
+    }
+}

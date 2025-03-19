@@ -1,5 +1,6 @@
 # Custom gitignore file for Python projects
 data
+dump
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

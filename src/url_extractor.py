@@ -30,7 +30,7 @@ class URLExtractor:
         """Extract URLs from Wayback Machine snapshots for the specified site"""
         logger.info(f"Extracting URLs for {site_name}")
         
-        input_file = self.config.get_site_data_path(site_name, "urls_wayback_2015.csv")
+        input_file = self.config.get_site_data_path(site_name, "urls_wayback.csv")
         output_file = self.config.get_site_data_path(site_name, "urls_uncleaned.csv")
         base_url = self.config.sites[site_name]['base_url']
         

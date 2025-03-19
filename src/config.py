@@ -44,7 +44,7 @@ class ScraperConfig:
                 self.sites = json.load(f)
             
             # Only keep CNN and Fox News
-            self.target_sites = ['foxnews']
+            self.target_sites = ['cnn']
             self.sites = {k: v for k, v in self.sites.items() if k in self.target_sites}
             
             # Create data directories for each site

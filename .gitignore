@@ -1,6 +1,7 @@
 # Custom gitignore file for Python projects
 data
 dump
+.DS_Store
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
